@@ -1,0 +1,85 @@
+@import './config/base';
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.head-of-content {
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  margin: 0 0 20px 20px;
+  .sort-select-comp {
+    display: flex;
+    justify-content: flex-end;
+    .select {
+      width: 100%;
+      margin-left: 5px;
+      min-width: 15ch;
+      max-width: 30ch;
+      border: 1px solid var(--select-border);
+      border-radius: 0.25em;
+      padding: 0.25em 0.5em;
+      font-size: 16px;
+      cursor: pointer;
+      line-height: 1.1;
+      background-color: #fff;
+      background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+}
+
+.list-container {
+  margin: 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.child {
+  width: 250px;
+  padding-bottom: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  .child-photo {
+    min-height: 100px;
+    width: auto;
+    border-radius: 10px 10px 0 0;
+    background-image: linear-gradient($base-color,$secondary-color) ;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+    p {
+      font-size: 50px;
+      margin: 0px;
+      padding: 10px;
+    }
+  }
+  .child-body {
+    margin: 20px;
+    .price{
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}
+
+
+
