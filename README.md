@@ -1,3 +1,27 @@
+Creatella emoji challenge
+
+prerequisites
+- node js
+- npm / yarn 
+
+installation
+- clone this project "https://github.com/zikriakmal/creatella-emoji-challenge"
+- cd to this project
+- npm i && npm i client/
+
+run project
+- npm start 
+
+note : 
+this project run with 2 ports
+for backend : port=3000
+for client(reactJs) : port =9000
+
+have problem to run this project, feel free to contact me at
+
+phone : +6285363502837
+email : zikriakmale@gmail.com
+
 Products Grid
 ====
 
